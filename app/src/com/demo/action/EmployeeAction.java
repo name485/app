@@ -17,6 +17,7 @@ public ActionForward execute(ActionMapping mapping, ActionForm form,
 		HttpServletRequest request, HttpServletResponse response)
 		throws Exception {
 	// TODO Auto-generated method stub
+	 //Hello how are you????
 	 EmployeeForm empForm= (EmployeeForm)form;
 	 EmployeeDAO empdao= new EmployeeDAO();
 	 empdao.insertEmployee(empForm.geteId(), empForm.geteName(), empForm.getEsalary());
