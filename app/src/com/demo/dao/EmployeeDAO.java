@@ -6,7 +6,8 @@ import java.sql.Statement;
 
 import com.demo.utils.ConnectionUtils;
 
-
+//this is new project into github //this is new project into github //this is new project into github //this is new project into github 
+//this is new project into github //this is new project into github //this is new project into github //this is new project into github
 public class EmployeeDAO {
 	public void insertEmployee(int eid,String eName,int esalary) throws ClassNotFoundException{
 		String insertQuery="insert into emp(eid,eName,esalary) values("+eid+",'"+eName+"',"+esalary+")";
